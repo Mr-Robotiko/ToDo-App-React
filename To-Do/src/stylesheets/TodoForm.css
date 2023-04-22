@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.textfield {
+  display: flex;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid rgb(163, 163, 163);
+  outline: 0;
+  font-size: 1.3rem;
+  color: #000;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.button {
+  background-color: #ff0080;
+  border-radius: 8px;
+  border-style: none;
+  color: #ffffff;
+  cursor: pointer;
+  height: 40px;
+  padding: 10px 16px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #f082ac;
+}
+
+.textfield-hide{
+  display: none;
+}
